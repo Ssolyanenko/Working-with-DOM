@@ -1,0 +1,54 @@
+/* write your styles here */
+#app-root {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+table {
+    border-spacing: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+th {
+    padding: 10px 20px;
+    background: #6495ed;
+    color: #f3f2ed;
+    border-right: 1px solid #6b19e6;
+    font-size: 0.9em;
+}
+
+th:first-child {
+    text-align: left;
+}
+
+th:last-child {
+    border-right: none;
+    width: 200px;
+}
+
+td {
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid #6b19e6;
+    border-bottom: 1px solid #6b19e6;
+    border-right: 1px solid #6b19e6;
+}
+
+td:first-child {
+    border-left: 1px solid #6b19e6;
+    ;
+
+}
+
+td:nth-child(2) {
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #e5f4ff;
+}
